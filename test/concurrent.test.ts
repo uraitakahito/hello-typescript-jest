@@ -1,4 +1,10 @@
 /* eslint-disable no-console */
+
+//
+// MEMO:
+// `jest --silent` prevents tests from printing messages through the console.
+//
+
 // https://pc.atsuhiro-me.net/entry/2022/02/28/163920
 import * as assert from 'node:assert';
 
