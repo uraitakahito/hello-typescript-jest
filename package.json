@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest --silent"
+    "test": "jest"
   },
   "author": "",
   "license": "Apache-2.0",
