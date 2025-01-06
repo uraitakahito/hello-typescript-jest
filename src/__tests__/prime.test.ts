@@ -1,4 +1,4 @@
-import primenumber from '../src/prime';
+import primenumber from '../prime';
 
 describe('primenumber', () => {
   it('should return false when n is less than 1', () => {
