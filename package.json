@@ -10,6 +10,7 @@
   "license": "Apache-2.0",
   "description": "",
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
