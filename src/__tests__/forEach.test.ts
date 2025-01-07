@@ -2,7 +2,7 @@ import { jest } from '@jest/globals';
 import forEach from '../forEach';
 
 describe('mock functions', () => {
-  it('forEach mock function', () => {
+  it.concurrent('forEach mock function', () => {
     expect.assertions(4);
 
     const mockCallback = jest.fn((x: number) => 42 + x);
