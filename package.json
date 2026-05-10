@@ -10,6 +10,9 @@
   "author": "",
   "license": "Apache-2.0",
   "description": "",
+  "overrides": {
+    "babel-plugin-istanbul": "^8.0.2"
+  },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@jest/globals": "^30.4.0",
