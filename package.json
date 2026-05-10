@@ -18,6 +18,6 @@
     "eslint-plugin-import": "^2.32.0",
     "jest": "^30.4.0",
     "ts-jest": "^29.4.9",
-    "typescript": "^5.7.2"
+    "typescript": "^6.0.3"
   }
 }
