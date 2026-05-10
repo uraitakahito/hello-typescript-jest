@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 /** @type {import('ts-jest').JestConfigWithTsJest} * */
 export default {
   // All imported modules in your tests should be mocked automatically

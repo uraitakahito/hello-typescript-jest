@@ -1,4 +1,4 @@
-function primenumber(n: number): boolean {
+function primeNumber(n: number): boolean {
   if (n <= 1) return false;
 
   for (let i = 2; i < n; i += 1) {
@@ -8,4 +8,4 @@ function primenumber(n: number): boolean {
   return true;
 }
 
-export default primenumber;
+export default primeNumber;
