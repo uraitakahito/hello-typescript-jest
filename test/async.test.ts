@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-
 // Reference:
 // https://qiita.com/mori_goq/items/5b01666cff5134f821bd
 
@@ -34,8 +32,8 @@ describe('verify asynchronous success', () => {
 });
 
 describe('verify asynchronous failure', () => {
-  it.concurrent('test 1', () => fetchDataReject().catch((data) => {
-    expect(data.message).toBe('something bad happened');
+  it.concurrent('test 1', () => fetchDataReject().catch((data: unknown) => {
+    expect((data as Error).message).toBe('something bad happened');
   }));
 
   it.concurrent('test 2', () => expect(fetchDataReject()).rejects.toThrow('something bad happened'));
@@ -53,8 +51,8 @@ describe('verify asynchronous failure', () => {
 
     try {
       await fetchDataReject();
-    } catch (error: any) {
-      expect(error.message).toBe('something bad happened');
+    } catch (error) {
+      expect((error as Error).message).toBe('something bad happened');
     }
   });
 });

@@ -1,5 +1,3 @@
-/* eslint-disable no-console */
-
 //
 // NOTE:
 // `vitest run --silent`: Silent console output from tests
@@ -10,7 +8,6 @@
 // https://pc.atsuhiro-me.net/entry/2022/02/28/163920
 //
 
-// eslint-disable-next-line no-promise-executor-return
 const sleep = (t: number) => new Promise((resolve) => setTimeout(resolve, t));
 
 beforeAll(async () => {

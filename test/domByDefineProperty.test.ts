@@ -5,7 +5,7 @@ const redirectFromExample = () => {
 };
 
 const setupWindow = () => {
-  global.window = Object.create(null);
+  global.window = Object.create(null) as typeof window;
   Object.defineProperty(window, 'location', {
     value: {
       hostname: '',
